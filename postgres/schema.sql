@@ -2,8 +2,8 @@ CREATE TABLE users (
     user_id UUID PRIMARY KEY,
     username VARCHAR(255) NOT NULL,
     name VARCHAR(255) NOT NULL,
-    email VARCHAR(255) UNIQUE,
-    phone_number VARCHAR(255) UNIQUE,
+    email VARCHAR(255),
+    phone_number VARCHAR(255),
     profile_picture_url VARCHAR(2048)
 );
 
